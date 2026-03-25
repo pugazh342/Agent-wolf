@@ -47,7 +47,7 @@ flowchart TD
         HF1 -- "Transcribed String" --> A3[Pass to LLM Pipeline]
         
         A3 --> QW1
-        T5 -- "POST Augmented Prompt" --> QW1["Qwen 2.5 Coder API <br>NODE_1_URL"]
+        T5 -- "POST Augmented Prompt" --> QW1["Qwen 2.5 Coder "]
     end
 
     %% --- 6. OUTPUT PROCESSING ---
