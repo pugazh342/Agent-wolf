@@ -54,7 +54,7 @@ flowchart TD
     subgraph Streaming & Audio Generation
         %% Text Output Handling
         QW1 -- "Streamed JSON Chunks" --> T6[Chunk Decoder]
-        T6 --> T7{Length > 1900 Chars?}
+        T6 --> T7{Length > 2000 Chars?}
         T7 -- "No" --> T8["Update Discord Message <br>Every 1.5 seconds"]
         T7 -- "Yes" --> T9["Generate response.md File"]
 
